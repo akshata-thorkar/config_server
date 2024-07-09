@@ -1,0 +1,91 @@
+.wcubody {
+    height: 100%;
+    font-family: Arial, sans-serif;
+    
+}
+
+.wcumain {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+}
+
+.clients {
+    color: black;
+    padding: 20px;
+    text-align: center;
+    background-color: #d2d6df; 
+    width: 100%;
+    margin: 0; 
+    
+}
+
+
+
+.client-logos {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: center;
+    gap: 30px; 
+    margin-top: 20px;
+    align-items: center;
+}
+
+.client-logo {
+    max-width: 100%; 
+    height: auto; 
+    margin: 5px; 
+}
+
+
+.client-logos img {
+    width: 250px; 
+    height: auto;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+
+.client-logos img:hover {
+    transform: scale(1.1);
+}
+
+.why-choose-us {
+    
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    color: white; 
+    background-image: url('../../assets/Images/background.jpg'); 
+    background-size: cover; 
+    background-position: center;
+    width: 100%;
+    padding: 60px 20px; 
+    
+}
+
+.why-choose-us-content {
+    padding: 10px;
+    max-width: auto;
+    max-height: auto;
+    z-index: 1;
+
+    
+}
+
+.why-choose-us-content h1 {
+    margin-bottom: 10px; 
+    font-size: 28px; 
+}
+
+.why-choose-us-content h3 {
+    font-size: 20px; 
+    margin-bottom: 8px; 
+}
+
+.section p {
+    color: #f3f2f2;
+    font-size: 16px; 
+    margin-bottom: 8px; 
+}

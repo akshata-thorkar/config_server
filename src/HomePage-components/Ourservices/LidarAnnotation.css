@@ -1,0 +1,160 @@
+/* DataEnhancement.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.top-section {
+    text-align: center;
+    background-color: #b6d0d5;
+    padding: 20px 0;
+}
+
+.new-page-heading,
+.new-page-under {
+    margin: 0;
+}
+
+.new-page-heading {
+    font-size: 36px;
+    color: #5db275;
+}
+
+.new-page-under {
+    font-size: 18px;
+    color: #666;
+}
+
+.navbar {
+    background-color: #333;
+    overflow: hidden;
+}
+
+.navbar img {
+    float: left;
+    padding: 10px 20px;
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-around;
+}
+
+.navbar ul li {
+    float: left;
+}
+
+.navbar ul li a,
+.navbar ul li button {
+    display: block;
+    color: rgb(69, 9, 9);
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+
+.navbar ul li a.active,
+.navbar ul li a:hover,
+.navbar ul li button:hover {
+    background-color: #4CAF50;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #322f2f;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: rgb(242, 232, 232);
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+    background-color: #f1f1f1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.call-now-button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.call-now-button:hover {
+    background-color: #45a049;
+}
+
+.content-section {
+    padding: 20px;
+    background-color: #f9f9f9;
+}
+
+.content-section h2 {
+    font-size: 28px;
+    color: #333;
+}
+
+.content-section p {
+    font-size: 16px;
+    color: #666;
+    line-height: 1.6;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-around;
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+}
+
+.footer1,
+.footer2,
+.footer3,
+.footer4 {
+    width: 22%;
+}
+
+.footer1 img {
+    display: block;
+    margin: 0 auto;
+}
+
+.footer1 p,
+.footer2 p,
+.footer3 p,
+.footer4 p {
+    text-align: center;
+    font-size: 14px;
+}
+
+.footer2 h2 {
+    text-align: center;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+h3 {
+    background-color: #74B4F8;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin: 0;
+}

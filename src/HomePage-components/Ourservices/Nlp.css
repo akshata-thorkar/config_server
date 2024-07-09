@@ -1,0 +1,53 @@
+.top-section {
+    background-color: rgb(116, 180, 248);
+    color: white;
+    width: 100%;
+    height: 50vh; /* 40% of the viewport height */
+    position: relative;
+    padding-top: 90px; /* Space for the fixed navbar */
+    z-index: 0; /* Ensure it stays behind the navbar */
+  }
+  
+  .data-enhancement-heading {
+    text-align: center;
+    margin-top: 100px; /* Adjust as needed */
+    color: #ffffff;
+    font-size: 50px;
+  }
+  
+  .data-under {
+    text-align: center;
+    color: #ffffff;
+    font-size: 20px;
+  }
+  
+
+  .threeimagedes {
+    margin-top: 270px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 200px;
+  }
+  
+  .threeimagedes h1 {
+    margin-right: 200px; /* Adjust spacing between the h1 elements */
+  }
+  
+  .threeimage {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 150px;
+    margin-top: 20px; /* Adjust the margin-top as needed */
+  }
+  
+  .threeimage img {
+    width: 300px; /* Adjust the width of the images */
+    height: auto; /* Maintain aspect ratio */
+    margin-right: 200px;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .threeimage img:hover {
+    transform: scale(1.1); /* Zoom effect on hover */
+  }
+  

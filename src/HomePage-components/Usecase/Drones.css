@@ -1,0 +1,107 @@
+body {
+    margin: 0;
+    font-family: Titillium Web;
+    background-color: #f3f4f6;
+    color: #333;
+  }
+  
+  .app {
+    min-height: 100vh;
+    background-color: #f3f4f6;
+  }
+  
+  .header {
+      background-color:#406586 ; /* Adjust color to match the image */
+      position: relative;
+      overflow:hidden; /* Ensure background image does not overflow */
+      min-height: 66vh; /* Minimum height of 50% viewport height */
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center; /* Center items horizontally */
+      text-align: center;
+      color: white;
+      padding: 30px 20px;
+  
+  }
+  
+  .header .container {
+    max-width: 1500 px;
+    margin: 0 auto;
+    padding: 0 1rem;
+  }
+  
+  .title {
+    font-size: 3rem;
+    font-weight: bold;
+  
+  }
+  
+  .subtitle {
+    margin-top: 0.5rem;
+    font-size: rem;
+  }
+  
+  .main {
+    max-width: 1200px;
+    margin: 2rem auto;
+    padding: 0 1rem;
+  }
+  
+  .content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .image-container2 {
+    width: 100%;
+    max-width: 540px;
+    margin-top: 4rem; 
+    
+  
+  }
+  
+  .image {
+    width: 510px;
+    height: 328px;
+    border-radius: 0.5rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-top: 2rem;
+    vertical-align: top;
+  }
+  
+  
+  .text-container {
+    max-width: 600px;
+    margin-top: 2rem;
+  }
+  
+  .section-title {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
+  
+  .description {
+    margin-bottom: 2rem;
+    color: #666666 ;
+    font-family: Titillium Web ;
+    font-size: 16px ;
+  }
+  
+  @media (min-width: 768px) {
+    .content {
+      flex-direction: row;
+      align-items: flex-start;
+    }
+  
+    .image-container2, .text-container {
+      width: 50%;
+    }
+  
+    .text-container {
+      padding-left: 2rem;
+      margin-top: 0;
+    }
+  }
